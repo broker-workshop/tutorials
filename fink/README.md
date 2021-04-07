@@ -1,6 +1,6 @@
 # Fink broker tutorials
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/astrolabsoftware/fink-notebook-template/blob/main)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main)
 
 This repository contains materials (notebooks & presentation) to explore the [Fink broker](https://fink-broker.org) alert data. As of April 2021, Fink has collected more than 80 million alerts from the ZTF public stream, and processed more than 30 millions (after quality cuts). Among these, you will find extragalatic sources (supernovae, AGN, ...), galactic sources (many classes of transients incl. variables stars from our galaxy or gravitational microlensing events, ...) and moving objects from our Solar System (asteroids, comets, and made-man objects like space-debris!). Some sources are already confirmed, many are candidates!
 
