@@ -16,7 +16,7 @@ the [Zwicky Transient Facility (ZTF)](https://ztf.caltech.edu) Phase II.
 
 It implements an end-to-end, scalable, **API-first** system for Time-domain Astronomy featuring:
 - A multi-survey data archive and alert broker
-- An interactive collaborative platform for the transient, variable, and Solar system science cases, 
+- An interactive, mobile-friendly collaborative platform for the transient, variable, and Solar system science cases, 
   with fine-grained access control
 - A workhorse for machine learning applications
 - Follow-up observation management with robotic and classical facilities
@@ -28,6 +28,9 @@ which handles the rest of the stack.
 The schematic overview of our system is shown below:
 
 ![img/fritz.png](https://docs.fritz.science/_images/fritz.jpg)
+
+We note that while Fritz/SkyPortal/Kowalski can be centrally managed for a single-source of truth, 
+it also can have many deployments with different configurations.
 
 The project documentation is hosted at [https://docs.fritz.science](https://docs.fritz.science).
 
