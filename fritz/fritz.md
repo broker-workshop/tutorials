@@ -24,7 +24,7 @@ The project documentation is hosted at [https://docs.fritz.science](https://docs
 
 ### User profile
 
-When you receive an invitation email to `Fritz`, click the link, which will take you to the Profile page.
+Newly invited `Fritz` users are first taken to the Profile page.
 Here, you can update your user info, preferences, and manage tokens to 
 [interact with `Fritz` programmatically](https://docs.fritz.science/api.html). 
 If you have a [gravatar](https://en.gravatar.com/) associated with your email address, 
@@ -127,7 +127,7 @@ Tooling for extensive in-browser periodogram analysis for variable sources is al
 Users can inspect, analyze, and manage (including export/import) spectroscopy data.
 
 We provide interfaces to work with both robotic and classical follow-up facilities, including 
-a framework for dealing with time allocations. 
+a framework for dealing with allocations. 
 In particular, we feature automated integration with the [SEDM](https://sites.astro.caltech.edu/sedm/). 
 
 ![lsst-ws-source-spectroscopy-follow-up](https://user-images.githubusercontent.com/7557205/113935794-ced1f480-97ab-11eb-8c48-ea60fb3aee03.gif)
@@ -145,3 +145,71 @@ Only the objects that have been posted to `Fritz`'s `SkyPortal` backend are save
 However, `Fritz`'s users can access the entire archive of ZTF alerts via the Alerts page:
 
 ![lsst-ws-alerts](https://user-images.githubusercontent.com/7557205/113936965-5d934100-97ad-11eb-9942-04c24bc6a2e0.gif)
+
+
+## Using the API
+
+An API enables access to most of the underlying functionality of Fritz/SkyPortal/Kowalski. 
+The workflows described above are all enabled by specific API calls.
+The complete OpenAPI specification is available at [https://docs.fritz.science/api.html](https://docs.fritz.science/api.html).
+
+To use the API, you will need a token that can be generated on the Profile page. Once you have that, you can
+access Fritz programmatically as follows.
+
+```python
+import requests
+from typing import Mapping, Optional
+import urllib.parse
+
+token = 'ea70a5f0-b321-43c6-96a1-b2de225e0339'
+
+def api(
+    method: str, 
+    endpoint: str, 
+    data: Optional[Mapping] = None, 
+    base_url: str = "https://fritz.science",
+):
+    headers = {"Authorization": f"token {token}"}
+    response = requests.request(
+      method.upper(), 
+      urllib.parse.urljoin(base_url, endpoint), 
+      json=data, 
+      headers=headers,
+    )
+    
+    return response
+```
+
+For example, here is how to
+[retrieve object's annotations](https://docs.fritz.science/api.html#tag/sources/paths/~1api~1sources~1obj_id~1annotations/get):
+
+```python
+object_id = "ZTF21aatjavc"
+
+response = api("get", f"api/sources/{object_id}/annotations")
+data = response.json().get("data", None)
+print(data)
+```
+
+Which would yield something similar to: 
+
+```python
+[{
+    "author_id": 3,
+    "created_at": "2021-04-08T06:17:56.980090",
+    "data": {
+        "acai_b": 0.00011,
+        "acai_h": 0.98887,
+        "acai_n": 0.00361,
+        "acai_o": 0.00925,
+        "acai_v": 2e-05,
+        "age": 0.0,
+        "candid": "1558254455015015000",
+        "n_det": 1,
+    },
+    "id": 916700,
+    "modified": "2021-04-08T06:17:56.980090",
+    "obj_id": "ZTF21aatjavc",
+    "origin": "au-public:hosted",
+}]
+```
