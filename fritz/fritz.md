@@ -113,15 +113,14 @@ Users can send notifications about the source to the group members, provided the
 
 For sources [annotated with Gaia color information](https://skyportal.io/docs/advanced_usage.html?highlight=gaia), an 
 interactive HR diagram is rendered.
-
-TODO: screen capture with demo data 
+![lsst-ws-source-hr](https://user-images.githubusercontent.com/7557205/113984246-bab7e280-97ff-11eb-9c64-472af5864d64.gif)
 
 Users can interactively inspect (optionally binned) photometry data in both magnitude and flux spaces.
 Tools for data import, export, and granular access management are available.   
 ![lsst-ws-source-3](https://user-images.githubusercontent.com/7557205/113929129-882ccc00-97a4-11eb-86fb-e40fd7bb34ea.gif)
 
 The photometry plot for sources annotated with period data additionally displays phase-folded light curves:
-TODO: screen capture with demo data
+![lsst-ws-source-phase-fold](https://user-images.githubusercontent.com/7557205/113984100-922fe880-97ff-11eb-92e3-47a78aab0595.gif)
 
 Tooling for extensive in-browser periodogram analysis for variable sources is also available:
 ![lsst-ws-source-periodogram-analysis](https://user-images.githubusercontent.com/7557205/113931157-00948c80-97a7-11eb-9125-1f7f9887718e.gif)
