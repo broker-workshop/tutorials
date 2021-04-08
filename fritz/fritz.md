@@ -7,6 +7,7 @@
     + [Dashboard](#dashboard)
     + [Groups and filters](#groups-and-filters)
     + [Candidates and Sources](#candidates-and-sources)
+    + [Mobile experience](#mobile-experience)
   * [Using the API](#using-the-api)
 
 ## Introduction
@@ -160,6 +161,17 @@ Only the objects that have been posted to `Fritz`'s `SkyPortal` backend are save
 However, `Fritz`'s users can access the entire archive of ZTF alerts via the Alerts page:
 
 ![lsst-ws-alerts](https://user-images.githubusercontent.com/7557205/113936965-5d934100-97ad-11eb-9942-04c24bc6a2e0.gif)
+
+
+### Mobile experience
+Fritz's interfaces are mobile-friendly, so the app will work as expected on your phone or tablet:
+
+<table>
+<tr>
+<td><img alt="phone" src="https://user-images.githubusercontent.com/7557205/114100592-5f2a3b00-9879-11eb-9dbc-9a4cdc46df77.gif" /></td>
+<td><img alt="tablet" src="https://user-images.githubusercontent.com/7557205/114100803-b29c8900-9879-11eb-98c2-98ee91fd0e5e.gif" /></td>
+</tr>
+</table>
 
 
 ## Using the API
