@@ -1,9 +1,20 @@
 # Fritz (SkyPortal + Kowalski)
 
+- Table of Contents
+  * [Introduction](#introduction)
+  * [A quick tour of Fritz (from the user perspective)](#a-quick-tour-of-fritz--from-the-user-perspective-)
+    + [User profile](#user-profile)
+    + [Dashboard](#dashboard)
+    + [Groups and filters](#groups-and-filters)
+    + [Candidates and Sources](#candidates-and-sources)
+  * [Using the API](#using-the-api)
+
+## Introduction
+
 [Fritz](https://github.com/fritz-marshal/fritz) is the science data platform for 
 the [Zwicky Transient Facility (ZTF)](https://ztf.caltech.edu) Phase II.
 
-It implements an end-to-end, scalable, API-first system for Time-domain Astronomy featuring:
+It implements an end-to-end, scalable, **API-first** system for Time-domain Astronomy featuring:
 - A multi-survey data archive and alert broker
 - An interactive collaborative platform for the transient, variable, and Solar system science cases, 
   with fine-grained access control
@@ -112,7 +123,7 @@ Users can send notifications about the source to the group members, provided the
 ![lsst-ws-source-2](https://user-images.githubusercontent.com/7557205/113928363-89a9c480-97a3-11eb-86d0-713b7c3ceee9.gif)
 
 For sources [annotated with Gaia color information](https://skyportal.io/docs/advanced_usage.html?highlight=gaia), an 
-interactive HR diagram is rendered.
+HR diagram is rendered.
 ![lsst-ws-source-hr](https://user-images.githubusercontent.com/7557205/113984246-bab7e280-97ff-11eb-9c64-472af5864d64.gif)
 
 Users can interactively inspect (optionally binned) photometry data in both magnitude and flux spaces.
