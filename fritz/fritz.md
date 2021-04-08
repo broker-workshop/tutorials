@@ -72,8 +72,10 @@ automatically saving passing objects to the filter's group and updating annotati
 
 ![lsst-ws-group-filter](https://user-images.githubusercontent.com/7557205/113790766-fe72f500-96f6-11eb-9c9a-7a7fc1ce8278.gif)
 
-Filters can be simple and rely on, for example, ML, or implement very complicated logic/computations - and still be
-performant. [Watch lists](https://docs.fritz.science/user_guide.html#watch-lists) can also be implemented as simple Fritz filters. 
+Filters can range from very simple that rely on, for example, 
+[mostly ML scores](https://docs.fritz.science/user_guide.html#acai-hosted-filter), 
+or implement [very complicated logic/computations](https://docs.fritz.science/user_guide.html#bts-rcf-program-full-filter). 
+[Watch lists](https://docs.fritz.science/user_guide.html#watch-lists) can also be implemented as simple Fritz filters. 
 
 Finally, we provide public alert databases for filter design and debugging.
 
