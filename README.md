@@ -4,7 +4,7 @@ Tutorials from the Broker Workshop 2020/2021. Times are in UTC.
 ## April 13th
 
 14:30 - 15:15 Tutorial: Broker interfaces I (45min)
-  * Pitt-Google - [Colab link](https://colab.research.google.com/github/mwvgroup/tutorials-1/blob/main/Pitt-Google-Tutorial.ipynb)
+  * Pitt-Google - [Colab link](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/Pitt-Google/Pitt-Google-Tutorial-Code-Samples.ipynb)
   * Fink
   * AEON/TOM
   * ANTARES
