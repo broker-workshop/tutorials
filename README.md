@@ -1,6 +1,6 @@
 # Broker workshop tutorials
 
-Tutorials from the [![Open Notebook](https://img.shields.io/badge/Broker%20Workshop%202020%2F2021-website-blue?style=plastic)](https://github.com/AmpelProject/Ampel-contrib-sample).
+Tutorials from the [![Open Notebook](https://img.shields.io/badge/Broker%20Workshop%202020%2F2021-website-blue?style=plastic)](https://www.lsstcorporation.org/meetings/2021-broker-workshop).
 
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() will let you run the notebook in Google Colab
 * [![Open Notebook](https://img.shields.io/badge/Presentation-Open%20Notebook-orange?style=plastic)]() will let you read a notebook
