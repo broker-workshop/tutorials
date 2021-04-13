@@ -70,7 +70,7 @@ All times are in UTC.
   * Fink - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/fink/extragalactic/extragalactic.ipynb)
   * AMPEL - [![Open Notebook](https://img.shields.io/badge/Code-Open%20in%20GitHub-red?style=plastic)](https://github.com/AmpelProject/Ampel-contrib-sample)
   * ALeRCE - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/ALeRCE/ALeRCE_Extragalactic_notebook_brokers_workshop_2021.ipynb) 
-  * Lasair - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/ALeRCE/ALeRCE_Extragalactic_notebook_brokers_workshop_2021.ipynb) ) 
+  * Lasair - [![Open Notebook](https://img.shields.io/badge/Presentation-Open%20Notebook-orange?style=plastic)](Lasair) 
 
 16:35 - 17:20 Tutorial: Validation/training sets (45 min)
 
