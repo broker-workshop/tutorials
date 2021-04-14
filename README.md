@@ -62,7 +62,7 @@ All times are in UTC.
   * AMPEL - [![Open Notebook](https://img.shields.io/badge/Code-Open%20in%20GitHub-red?style=plastic)](https://github.com/AmpelProject/Ampel-contrib-sample)
   * Fink - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/fink/MMA/MMA.ipynb)
 * Extragalactic I
-  * ANTARES - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/ANTARES/IF_AD_broker_workshop_final.ipynb) 
+  * ANTARES - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12Vf8tL_HqejskVDb3uIlgzADLDOADUhm?usp=sharing) 
   * SNEx & AEON/TOM
 
 15:20 - 16:05 Extra-galactic II (45 min)
