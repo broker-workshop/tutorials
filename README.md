@@ -50,7 +50,7 @@ All times are in UTC.
 17:55 - 18:30 Tutorial: Marshall/multi-messenger I (35min)
 
   * Lasair - [![Open Notebook](https://img.shields.io/badge/Presentation-Open%20Notebook-orange?style=plastic)](Lasair)
-  * ANTARES - [![Open Notebook](https://img.shields.io/badge/Presentation-Open%20Notebook-orange?style=plastic)](ANTARES)
+  * ANTARES - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1g9OJfMjQ8O_dry6BAANtRvnvRG1OFycf?usp=sharing) 
   * ALeRCE - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/ALeRCE/ALeRCE_Planner_notebook_brokers_workshop_2021.ipynb)
   * AEON/TOM
 
