@@ -31,7 +31,7 @@ All times are in UTC.
   * Skyportal/Fritz - [![Open Markdown](https://img.shields.io/badge/Presentation-Open%20Markdown-green?style=plastic)](fritz/fritz.md)
 * Solar System I
   * Fink - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/fink/sso/sso.ipynb) 
-  * ANTARES - [![Open Notebook](https://img.shields.io/badge/Presentation-Open%20Notebook-orange?style=plastic)](ANTARES)
+  * ANTARES - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/ANTARES/Antaresv1.0SolarSystemObjectLightCurveExploration.ipynb) 
   * ALeRCE - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/ALeRCE/ALeRCE_SolarSystem_notebook_brokers_workshop_2021.ipynb) 
 
 ## April 14th
