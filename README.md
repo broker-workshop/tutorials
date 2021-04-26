@@ -74,6 +74,5 @@ All times are in UTC.
 
 16:35 - 17:20 Tutorial: Validation/training sets (45 min)
 
-   * ANTARES - [![Open Notebook](https://img.shields.io/badge/Presentation-Open%20Notebook-orange?style=plastic)](ANTARES)
    * ALeRCE - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/ALeRCE/ALeRCE_Training_sets_notebook_brokers_workshop_2021.ipynb) 
    * PLAsTiCC 2 (20 min) - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1X1jXCZ3FLfjUSLaipBHLbm0PXjaGE1f4?usp=sharing) 
