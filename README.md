@@ -49,7 +49,7 @@ All times are in UTC.
 
 17:55 - 18:30 Tutorial: Marshall/multi-messenger I (35min)
 
-  * Lasair - [![Open Notebook](https://img.shields.io/badge/Presentation-Open%20Notebook-orange?style=plastic)](Lasair)
+  * Lasair - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/Lasair/Get%20Watchlist%20and%20Area%20Hits.ipynb))
   * ANTARES - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1g9OJfMjQ8O_dry6BAANtRvnvRG1OFycf?usp=sharing) 
   * ALeRCE - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/ALeRCE/ALeRCE_Planner_notebook_brokers_workshop_2021.ipynb)
   * AEON/TOM
@@ -70,7 +70,7 @@ All times are in UTC.
   * Fink - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/fink/extragalactic/extragalactic.ipynb)
   * AMPEL - [![Open Notebook](https://img.shields.io/badge/Code-Open%20in%20GitHub-red?style=plastic)](https://github.com/AmpelProject/Ampel-contrib-sample)
   * ALeRCE - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/ALeRCE/ALeRCE_Extragalactic_notebook_brokers_workshop_2021.ipynb) 
-  * Lasair - [![Open Notebook](https://img.shields.io/badge/Presentation-Open%20Notebook-orange?style=plastic)](Lasair) 
+  * Lasair - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/Lasair/BrightSNe.ipynb)
 
 16:35 - 17:20 Tutorial: Validation/training sets (45 min)
 
