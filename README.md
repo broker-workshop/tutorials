@@ -15,7 +15,7 @@ All times are in UTC.
 
   * Pitt-Google - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broker-workshop/tutorials/blob/main/Pitt-Google/Pitt-Google-Tutorial-Code-Samples.ipynb)
   * Fink - [![Open Markdown](https://img.shields.io/badge/Presentation-Open%20Markdown-green?style=plastic)](fink/interfaces/README.md)
-  * AEON/TOM
+  * AEON/TOM [![Open Markdown](https://img.shields.io/badge/Presentation-Open%20Markdown-green?style=plastic)](https://github.com/broker-workshop/presentations/blob/main/street_TOM_AEON_intro.pdf)
   * ANTARES - [![Open Notebook](https://img.shields.io/badge/Presentation-Open%20Notebook-orange?style=plastic)](ANTARES)
 
 15:20 - 16:05 Tutorial: Broker interfaces II (45min)
