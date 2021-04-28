@@ -1,5 +1,5 @@
 # ANTARES notebooks
-This is a collection of ANTARES notebooks for the LSST enabling science broker workshop. 
+This is a collection of ANTARES notebooks for the LSST enabling science broker workshop. ANTARES provides a [webportal](antares.noirlab.edu) that enables users to query and view alerts, tag interesting alerts in user's own favorite page, create watch lists and customized filters, and more. ANTARES also has a python-based client API that provides programmatic access to the alert database. The ANTARES notebooks provide examples how to use the client API for various science cases. For more detail about the client API, please visit [ANTARES Documentation Site](https://noao.gitlab.io/antares/filter-documentation/).
 
 # Using Data Lab's Jupyter environment
 These notebooks are best used in the NOIRLab Data Lab (https://datalab.noirlab.edu) services. To register to the Data Lab service, please go to "Sign up" at the upper left corner of the Data Lab web page, or "Quick Start" => "Create a new account". 
